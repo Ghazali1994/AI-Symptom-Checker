@@ -1,1 +1,19 @@
-
+{
+  "conditions": [
+    {
+      "name": "Flu",
+      "symptoms": ["fever", "cough", "body ache", "chills"],
+      "red_flags": ["confusion", "high fever"]
+    },
+    {
+      "name": "Common Cold",
+      "symptoms": ["runny nose", "sneezing", "mild cough"],
+      "red_flags": []
+    },
+    {
+      "name": "Allergy",
+      "symptoms": ["runny nose", "sneezing", "itchy eyes"],
+      "red_flags": []
+    }
+  ]
+}
